@@ -1,0 +1,27 @@
+{
+  "name": "medusa-payment-paykeeper",
+  "version": "1.0.0",
+  "description": "Paykeeper payment provider for Medusa v2",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "peerDependencies": {
+    "@medusajs/framework": "^2.0.0"
+  },
+  "keywords": [
+    "medusa",
+    "medusa-plugin",
+    "medusa-plugin-payment",
+    "medusa-payment",
+    "medusa-payment-provider",
+    "paykeeper",
+    "payment"
+  ]
+}
